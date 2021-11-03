@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "dune-sg",
+  "version": "${version}",
+
+  "name": "Dune",
+  "description": "Dune as a mod",
+  "authors": [
+    "Steven Gann"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/dune-sg/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.stevengann.dune.DuneMod"
+    ]
+  },
+  "mixins": [
+    "dune-sg.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

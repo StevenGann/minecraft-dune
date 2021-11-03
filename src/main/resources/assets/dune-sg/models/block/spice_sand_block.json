@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+      "all": "dune-sg:block/spice_sand_block"
+    }
+  }
