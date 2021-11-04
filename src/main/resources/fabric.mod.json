@@ -9,11 +9,11 @@
     "Steven Gann"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/StevenGann/minecraft-dune",
+    "sources": "https://github.com/StevenGann/minecraft-dune"
   },
 
-  "license": "MIT",
+  "license": "CC0",
   "icon": "assets/dune-sg/icon.png",
 
   "environment": "*",
